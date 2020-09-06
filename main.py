@@ -237,7 +237,7 @@ while True:
     heart_gp.update()
     police.speed_update()
 
-
+#update
 
     update_frame()
     police.rect.x += police.speed_x
