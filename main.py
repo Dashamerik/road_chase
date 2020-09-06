@@ -216,6 +216,7 @@ while True:
             if event.key == pygame.K_LEFT:
                 police.speed_x = -police.speed_increase
 
+#generating the cars
     gen = random.randint(1,1000)
     if gen < enemy_probability and frame > last_spawn + 90:
         count_enemy += 1
@@ -238,6 +239,7 @@ while True:
     police.speed_update()
 
 #update
+
 
     update_frame()
     police.rect.x += police.speed_x
